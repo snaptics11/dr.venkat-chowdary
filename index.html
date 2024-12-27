@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Choudary</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- top header -->
+    <div class="top-header bg-[#0E1136] py-2 hidden md:block">
+        <div class="custom-container">
+            <div class="flex justify-between items-center">
+
+
+
+
+
+                <div class="flex justify-between px-4  items-center gap-2 text-white text-[14px] space-x-6">
+                    <p class="text-white space-x-2"> <i class="fa-solid fa-clock"></i><a href="">Mon - Fri 8:00 - 18:00
+                            / Sunday 8:00 - 14:00</a></p>
+                    <p class="text-white  space-x-2"> <i class="fa-solid fa-envelope"></i> Email: <a
+                            href="">info@nightingale@gmail.com</a></p>
+                    <p class="text-white  space-x-2"><i class="fa-solid fa-location-dot"></i> <a href="">123 , Hyderabad
+                            , Telangana</a></p>
+                </div>
+
+                <div class="flex justify-between px-4 space-x-6 items-center gap-2">
+                    <p class="text-white">Follow Us </p>
+                    <div class="space-x-3">
+                        <a href=""><i class="fa-brands text-white fa-facebook-f "></i></a>
+                        <a href=""><i class="fa-brands text-white fa-instagram"></i></a>
+                        <a href=""><i class="fa-brands text-white fa-whatsapp"></i></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="barside">
+
+        <div class=" w-[150px]    flex justify-center ml-5 mb-5 ">
+            <img src="./img/logo.png" class="w-full h-full object-cover" alt="">
+        </div>
+        <ul class="border-b-2 border-[#015C88] px-5 py-2">
+            <li><a href="index.html" class="">
+                    <i class="fa-solid fa-house text-2xl text-[#015C88] mr-2"></i>
+                    Home</a></li>
+            <li><a href="about.html">
+                    <i class="fa-solid fa-user text-2xl text-[#015C88] mr-2"></i>
+                    About Us</a></li>
+            <li class="dropdown"><a href="services.html">
+                    <i class="fa-solid fa-stethoscope text-2xl text-[#015C88] mr-2"></i>
+                    Services</a>
+
+            </li>
+            <li class="dropdown"><a href="blog.html">
+                    <i class="fa-solid fa-newspaper text-2xl text-[#015C88] mr-2"></i>
+                    Blogs</a>
+
+            </li>
+            <li class="dropdown"><a href="contact.html">
+                    <i class="fa-solid fa-phone text-2xl text-[#015C88] mr-2"></i>
+                    Contact Us</a>
+
+            </li>
+            <div class="nav-button cloud-button ">
+
+                <a href="#">+91 - 1234567890 &nbsp &nbsp<i class="fa-solid fa-phone"></i></a>
+
+            </div>
+            <li>
+
+            </li>
+        </ul>
+
+        <!-- <div class="space-y-6 pt-2">
+            <div class="flex justify-start px-4  items-center gap-4">
+                <div class=" w-[20px] h-[20px]   flex justify-center items-center">
+                    <img src="./img/top-icon1.png" class="w-full brightness-50" alt="">
+                </div>
+                <div class="w-[70%] text-left">
+                    <h5 class="font-[Poppins] text-[#015C88]  font-semibold text-sm">Contatc Us</h5>
+                    <p class="font-[Poppins] text-[#015C88] text-sm">+91 9989030085</p>
+                </div>
+            </div>
+            <div class="flex justify-start px-4  items-center gap-4">
+                <div class=" w-[20px] h-[20px]   flex justify-center items-center">
+                    <img src="./img/top-icon2.png" class="w-full brightness-50" alt="">
+                </div>
+                <div class="w-[70%] text-left">
+                    <h5 class="font-[Poppins] text-[#015C88]  font-semibold text-sm">Email</h5>
+                    <p class="font-[Poppins] text-[#015C88] text-sm">info@nightingale
+                        @gmail.com</p>
+                </div>
+            </div>
+        </div> -->
+
+
+
+
+
+
+
+    </div>
+    <header class="py-4 absolute w-full z-50">
+        <nav class="custom-container ">
+            <div class="logo">
+
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+
+            </div>
+            <div class="bar" onclick="openNav()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+
+            <div class="nav  ">
+
+                <div class="nav2">
+
+                    <ul class="border border-gray-100 bg-[#1D3CE2] shadow backdrop-blur-lg  md:rounded-full ">
+                        <li><a href="index.html " class="text-white navactive">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class=""><a href="services.html">Services</a>
+
+                        </li>
+                        <li class=""><a href="blog.html">Blogs</a>
+
+                        </li>
+                        <li class=""><a href="contact.html">Contact Us</a>
+
+                        </li>
+                        <!-- <li><a href="gallery.html">Gallery</a></li> -->
+
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="nav-button">
+
+                <a href="#" class="text-nowrap">+91 - 1234567890</a>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- main banner -->
+    <section class="main-banner  relative overflow-hidden">
+        <div class="absolute bottom-0 left-0 w-[130px]    ">
+            <img src="./img/hero-banner-1.png" alt="">
+        </div>
+        <div class="absolute top-0 right-0 w-[200px] h-[200px]  z-10 ">
+            <img src="./img/hero-banner-3.png" alt="">
+        </div>
+
+        <div class="absolute -top-20 -right-20 w-[700px] h-[600px]  -z-1 hidden md:block">
+            <img src="./img/Ellipse-1.png" alt="">
+        </div>
+        <div class="custom-container md:pt-10 pt-32">
+            <div class="flex justify-between items-end   md:flex-nowrap flex-wrap">
+                <div class="md:w-[70%] w-full  justify-center items-center">
+                    <div class="relative text-white w-[80%] md:pt-20 pt-2 md:pt-0  mx-auto md:mx-0">
+                        <div class="absolute top-10 -left-10 w-[200px] h-[200px]   ">
+                            <img src="./img/hero-banner-2.svg" alt="">
+                        </div>
+                        <p class="text-[10px] md:text-[20px] font-semibold py-3 text-[#1D3CE2]"> Highest level of
+                            service you can find</p>
+                        <h1 class=" fisrt-h1 relative " data-aos="fade-up" data-aos-duration="1500">Take <a href=""
+                                class="underline text-[#F9313B] font-normal">Care of Your</a> Health Now.
+                            <img src="./img/h1-img.png" class="absolute top-[-50px] right-[-30px] w-[70px] md:w-auto" alt="">
+                        </h1>
+                        <p class="pb-8 text-[#676767]" data-aos="fade-up" data-aos-duration="2000"> Amet minim mollit
+                            non deserunt ullamco est sit aliqua dolor do amet sint. Velit
+                            officia consequat duis enim velit mollit.
+                        </p>
+                    </div>
+                    <div class="  " data-aos="fade-up" data-aos-duration="2500">
+                        <div
+                            class="nav-button cloud-button ml-[40px]    md:ml-0  text-white text-[10px] md:text-[16px]">
+
+                            <a href="#" class="font-semibold text-[white]   ">Book Appointment &nbsp <i
+                                    class="fa-solid fa-arrow-right"></i> </a>
+
+                        </div>
+
+                        <div class="nav-button bg-[transparent]  text-white pt-20 py-8 mx-10">
+
+                            <img src="./img/google-review-img.png" class="w-[240px]" alt="">
+
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="md:w-[50%] w-full flex justify-center items-center relative z-3" data-aos="fade-up"
+                    data-aos-duration="2000">
+                    <div class="">
+                        <img src="./img/main-banner-img-right.png" class="w-[80%] mx-auto md:mx-0 md:w-full" alt="">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- count -->
+
+    <section class="bg-[#fff] py-2 px-2">
+        <div class=" custom-container">
+
+            <div class="flex justify-between items-center flex-wrap md:flex-nowrap gap-10 md:gap-0">
+
+                <div class="md:w-1/2 w-full md:border-r-2 md:border-[#015C88] mr-10">
+                    <div class="  w-full" data-aos="fade-up" data-aos-duration="1000">
+
+                        <p class="text-2xl font-semibold text-[#1D3CE2]">Dr. G. P. Venkat Choudary</p>
+                        <p class="py-2 text-center ml-3 md:w-[35%]">MBBS, MD Radiology DrNB Interventional Radiology</p>
+
+                    </div>
+                </div>
+                <div class="md:w-1/2 w-full  flex justify-between items-center px-10 flex-wrap md:flex-nowrap space-y-6">
+                    <div class="text-center  md:w-[20%] w-full" data-aos="fade-up" data-aos-duration="1500">
+                        <div class="  my-3">
+                            <h1 class="text-4xl font-bold"><span id="starsCount" class="text-[#1D3CE2]"
+                                    countTo="69"></span>+</h1>
+                        </div>
+                        <p class="text-sm text-[#808080]">Years Of Experience</p>
+
+                    </div>
+
+                    <div class="text-center  md:w-[20%] w-full" data-aos="fade-up" data-aos-duration="2000">
+                        <div class="">
+                            <h1 class="text-4xl font-bold"><span id="sponsorsCount" class="text-[#1D3CE2]"
+                                    countTo="10"></span>+</h1>
+                        </div>
+                        <p class="text-sm text-[#015C88]">Patient satisfaction rating</p>
+
+                    </div>
+
+
+                    <div class="text-center  md:w-[20%] w-full" data-aos="fade-up" data-aos-duration="2500">
+                        <div class="">
+                            <h1 class="text-4xl font-bold"><span id="sponsorsCount2" class="text-[#1D3CE2]"
+                                    countTo="20"></span>+</h1>
+                        </div>
+                        <p class="text-sm text-[#015C88]">Patient served annualy</p>
+
+                    </div>
+                </div>
+
+            </div>
+
+
+
+
+
+
+        </div>
+    </section>
+
+
+
+    <!-- about us  -->
+
+    <section class="relative about-section">
+        <div class="absolute top-0 right-0 w-[100px] h-[100px] md:w-[250px] md:h-[250px] ">
+            <img src="./img/aboutus-Frame1.png" alt="">
+        </div>
+
+        <div class="custom-container ">
+
+
+            <div class="flex justify-between items-center py-20 md:flex-nowrap flex-wrap gap-10 md:gap-0">
+                <div class="md:w-[42%] w-[90%] relative mx-auto" data-aos="fade-up" data-aos-duration="1000">
+                    <!-- <div class="absolute -bottom-[36%] -left-10 w-[200px] h-[200px]">
+                        <img src="./img/about-banner-1.svg" alt="">
+                    </div> -->
+
+                    <div
+                        class="hover:!scale-105 !duration-200  w-[100%] md:h-[550px] h-[200px]  p-8 border-2 border-[#1D3CE2]">
+                        <img src="./img/about-page-bg.png " class="w-full h-full object-cover" alt="" data-aos="fade-up"
+                            data-aos-duration="3000">
+                    </div>
+
+
+
+                </div>
+
+                <div class="md:w-[50%] w-full" data-aos="fade-up" data-aos-duration="1000">
+                    <div class="text-left px-10">
+                        <h6 class=" text-3xl  text-[#1D3CE2] font-semibold" data-aos="fade-up" data-aos-duration="1500">
+                            About
+                        </h6>
+                        <h6 class=" text-3xl  text-[#1D3CE2] font-semibold" data-aos="fade-up" data-aos-duration="1500">
+                            Dr. G. P. Venkat Choudary</h6>
+                        <h1 class="text-[black] text-[20px] font-bold py-3 leading-[4rem]" data-aos="fade-up"
+                            data-aos-duration="2500">
+                            Medical services &Interventional Radiology</h1>
+                        <p class="  text-[#676767] text-[14px] " data-aos="fade-up" data-aos-duration="2500">Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply
+                            dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry</p>
+                        <p class="  text-[#676767] text-[14px] py-2" data-aos="fade-up" data-aos-duration="2500">Lorem
+                            Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum is simply
+                            dummy text of the printing and typesetting industry, Lorem Ipsum is simply dummy text of the
+                            printing and typesetting industry, Lorem Ipsum is simply dummy text of the printing and
+                            typesetting industry</p>
+
+
+
+
+
+                        <div class="flex justify-between items-center gap-4  border-[#0f1e5a] py-5 flex-wrap"
+                            data-aos="fade-up" data-aos-duration="1500">
+
+                            <div class=" w-full">
+                                <div class="flex gap-5 items-center">
+                                    <div class="w-[30px]">
+                                        <img src="./img/lets-icons_check-fill.svg" class="w-[100%]" alt="">
+                                    </div>
+
+                                    <p class="font-bold">Lorem Ipsum is simply dummy text of the printing</p>
+
+                                </div>
+                            </div>
+
+
+
+
+                            <div class=" w-full">
+                                <div class="flex gap-5 items-center">
+                                    <div class="w-[30px]">
+                                        <img src="./img/lets-icons_check-fill.svg" class="w-[100%]" alt="">
+                                    </div>
+
+                                    <p class="font-bold">Lorem Ipsum is simply dummy text of the printing</p>
+
+                                </div>
+                            </div>
+
+                            <div class=" w-full">
+                                <div class="flex gap-5 items-center">
+                                    <div class="w-[30px]">
+                                        <img src="./img/lets-icons_check-fill.svg" class="w-[100%]" alt="">
+                                    </div>
+
+                                    <p class="font-bold">Lorem Ipsum is simply dummy text of the printing</p>
+
+                                </div>
+                            </div>
+
+                            <div class=" w-full">
+                                <div class="flex gap-5 items-center">
+                                    <div class="w-[30px]">
+                                        <img src="./img/lets-icons_check-fill.svg" class="w-[100%]" alt="">
+                                    </div>
+
+                                    <p class="font-bold">Lorem Ipsum is simply dummy text of the printing</p>
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="my-3">
+                            <div
+                                class="  hidden md:block   hover:text-[#e7c873] py-3 px-5 text-white transition duration-75 rounded-lg">
+
+                                <a href="#" class="font-semibold text-[white]  bg-[#1D3CE2] py-4 px-10  ">Know More</a>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+        <div class="absolute bottom-0 right-0 w-[150px] h-[200px] ">
+            <img src="./img/medicine_1.png.png" alt="">
+        </div>
+    </section>
+
+    <!-- who we are -->
+
+    <section class="relative bg-[#07A97C] py-10">
+        <div class="absolute bottom-0 right-0  h-[200px]  z-10 ">
+            <img src="./img/Objects.png" alt="">
+        </div>
+        <div class="absolute top-0 left-0 w-[100px] h-[100px] md:w-[250px] md:h-[250px] ">
+            <img src="./img/services-bg-icon.png" alt="">
+        </div>
+        <div class="custom-container  rounded-3xl pb-10">
+
+
+            <div class="text-center pt-10 pb-20">
+
+                <h1 class="text-2xl md:text-4xl text-[white] font-semibold" data-aos="fade-up" data-aos-duration="1500">
+                    Why Choose Us</h1>
+            </div>
+
+
+            <div class="w-[80%] mx-auto ">
+                <div class="flex justify-between items-center gap-10 flex-wrap">
+
+                    <!-- 1 -->
+                    <div class="md:w-[30%] w-full services-cart bg-[url(./img/service_card_bg.png)] border-[white] border-2 bg-no-repeat bg-cover rounded-2xl py-10 servies-cart"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-center items-center">
+                            <img src="./img/services-cart-1.svg" alt="">
+                        </div>
+
+                        <div class="text-center py-8">
+                            <h1 class="text-[white] text-3xl font-semibold py-2">14k+</h1>
+
+                        </div>
+
+                        <div class="text-center relative top-">
+                            <p class="text-white">Happy Patients</p>
+                        </div>
+
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="md:w-[30%] w-full services-cart bg-[url(./img/service_card_bg.png)] border-[white] border-2 bg-no-repeat bg-cover rounded-2xl py-10 servies-cart"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-center items-center">
+                            <img src="./img/services-cart-1.svg" alt="">
+                        </div>
+
+                        <div class="text-center py-8">
+                            <h1 class="text-[white] text-3xl font-semibold py-2">14k+</h1>
+
+                        </div>
+
+                        <div class="text-center relative top-">
+                            <p class="text-white">Happy Patients</p>
+                        </div>
+
+                    </div>
+                    <!-- 3 -->
+                    <div class="md:w-[30%] w-full services-cart bg-[url(./img/service_card_bg.png)] border-[white] border-2 bg-no-repeat bg-cover rounded-2xl py-10 servies-cart"
+                        data-aos="fade-up" data-aos-duration="1000">
+                        <div class="flex justify-center items-center">
+                            <img src="./img/services-cart-1.svg" alt="">
+                        </div>
+
+                        <div class="text-center py-8">
+                            <h1 class="text-[white] text-3xl font-semibold py-2">14k+</h1>
+
+                        </div>
+
+                        <div class="text-center relative top-">
+                            <p class="text-white">Happy Patients</p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+            <div class="text-center pt-16 flex justify-center items-center  ">
+                <div class="hidden md:block">
+                    <img src="./img/HorizontalDivider.png" alt="">
+                </div>
+                <!-- <div class="w-[350px] rounded-full   bg-[#3B9C43] py-3 px-10 text-white">
+
+                    <a href="#" class="font-semibold text-[white] text-nowrap">View All</a>
+
+                </div> -->
+                <div class=" hidden md:block">
+                    <img src="./img/HorizontalDivider.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- <div class="absolute bottom-0 right-0 w-[250px] h-[250px] ">
+            <img src="./img/services-bg-icon.png" alt="">
+        </div> -->
+    </section>
+
+
+    <!-- services -->
+
+    <section class="relative bg-[url(./img/services-bg.png)] bg-no-repeat bg-cover py-10">
+        <!-- <div class="absolute bottom-0 right-0  h-[200px]  z-10 ">
+        <img src="./img/Objects.png" alt="">
+    </div>
+    <div class="absolute top-0 left-0 w-[100px] h-[100px] md:w-[250px] md:h-[250px] ">
+        <img src="./img/services-bg-icon.png" alt=""> -->
+        </div>
+        <div class="custom-container  rounded-3xl pb-10">
+
+
+            <div class="text-center pt-10 pb-20">
+
+                <h1 class="text-2xl md:text-4xl text-[#1D3CE2] font-semibold" data-aos="fade-up"
+                    data-aos-duration="1500">Services Offered</h1>
+                <h1 class="text-3xl md:text-4xl text-[black] font-semibold py-5" data-aos="fade-up"
+                    data-aos-duration="1500">A personalized & comfortable care</h1>
+            </div>
+
+
+            <div class="w-[80%] mx-auto ">
+                <div class="flex justify-between items-center gap-10 flex-wrap">
+
+                    <!-- 1 -->
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-1.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">General</h1>
+
+                    </div>
+
+                    <!-- 2 -->
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-2.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">Pulmonology</h1>
+
+                    </div>
+                    <!-- 3 -->
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-3.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">Orthopedic</h1>
+
+                    </div>
+                    <!-- 4 -->
+
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-4.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">Pain Management</h1>
+
+                    </div>
+
+                    <!-- 5 -->
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-5.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">Gynecological Disorders</h1>
+
+                    </div>
+
+                    <!-- 6 -->
+                    <div class="md:w-[30%] w-full rounded-2xl  servies-cart" data-aos="fade-up"
+                        data-aos-duration="1000">
+                        <img src="./img/services-6.png" alt="">
+                        <h1 class="text-center py-2 text-[#1D3CE2] text-2xl">Non-Vascular</h1>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="text-center pt-16 flex justify-center items-center  ">
+                <div class="hidden md:block">
+                    <img src="./img/HorizontalDivider.png" alt="">
+                </div>
+                <div class="w-[200px]   bg-[#1D3CE2] py-3 px-10 text-white">
+
+                    <a href="#" class="font-semibold text-[white] text-nowrap">View All</a>
+
+                </div>
+                <div class=" hidden md:block">
+                    <img src="./img/HorizontalDivider.png" alt="">
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+        <!-- <div class="absolute bottom-0 right-0 w-[250px] h-[250px] ">
+        <img src="./img/services-bg-icon.png" alt="">
+    </div> -->
+    </section>
+
+    <!-- TESTIMONIALS -->
+
+    <section class="bg-[#0E1136] py-10">
+        <div class="custom-container grid lg:grid-cols-2 md:grid-cols-2 grid-cols-1 gap-8 place-items-center p-6">
+            <div>
+                <img src="./img/Border.png" class="h-[420px] object-contain" alt="">
+            </div>
+            <div>
+                <p class="text-white text-2xl font-semibold">TESTIMONIALS</p>
+                <p class="text-white text-3xl font-semibold leading-[3rem] mt-5">What patients say about Dr. G.P. Venkat
+                    Choudhary</p>
+                    <div class="w-full mt-10">
+                        <div class="swiper mySwiper">
+                            <div class="swiper-wrapper w-[350px]">
+                                <!-- 1 -->
+                                <div class="swiper-slide ">
+                                    <div
+                                            class="md:w-[90%] mx-auto w-full bg-white  rounded-2xl shadow-2xl overflow-hidden transform  duration-300">
+                                            <div class="p-6 sm:p-8">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    
+                                                    
+                                                </div>
+                                                <p class=" text-xl font-medium mb-6">
+                                                    "Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. At
+                                                    repudiandae fuga, ad facere minus
+                                                    iure?"
+                                                </p>
+                                                <div class="flex items-center space-x-4">
+                                                    <!-- <img src="./img/review-5.png" alt="User avatar"
+                                                        class="w-12 h-12 rounded-full border-2 border-white" /> -->
+                                                        <div class="ml-3">
+                                                            <p>⭐⭐⭐⭐⭐</p>
+                                                            <p class="font-medium">John Doe</p>
+                                                            <p class="text-red-500">Customer</p>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+                    
+                                <!-- 2 -->
+                                <div class="swiper-slide ">
+                                    <div
+                                            class="md:w-[90%] mx-auto w-full bg-white  rounded-2xl shadow-2xl overflow-hidden transform  duration-300">
+                                            <div class="p-6 sm:p-8">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    
+                                                    
+                                                </div>
+                                                <p class=" text-xl font-medium mb-6">
+                                                    "Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. At
+                                                    repudiandae fuga, ad facere minus
+                                                    iure?"
+                                                </p>
+                                                <div class="flex items-center space-x-4">
+                                                    <!-- <img src="./img/review-5.png" alt="User avatar"
+                                                        class="w-12 h-12 rounded-full border-2 border-white" /> -->
+                                                        <div class="ml-3">
+                                                            <p>⭐⭐⭐⭐⭐</p>
+                                                            <p class="font-medium">John Doe</p>
+                                                            <p class="text-red-500">Customer</p>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+    
+                                 <!-- 3 -->
+                                 <div class="swiper-slide ">
+                                    <div
+                                            class="md:w-[90%] mx-auto w-full bg-white  rounded-2xl shadow-2xl overflow-hidden transform  duration-300">
+                                            <div class="p-6 sm:p-8">
+                                                <div class="flex justify-between items-center mb-4">
+                                                    
+                                                    
+                                                </div>
+                                                <p class=" text-xl font-medium mb-6">
+                                                    "Lorem ipsum dolor sit amet consectetur
+                                                    adipisicing elit. At
+                                                    repudiandae fuga, ad facere minus
+                                                    iure?"
+                                                </p>
+                                                <div class="flex items-center space-x-4">
+                                                    <!-- <img src="./img/review-5.png" alt="User avatar"
+                                                        class="w-12 h-12 rounded-full border-2 border-white" /> -->
+                                                        <div class="ml-3">
+                                                            <p>⭐⭐⭐⭐⭐</p>
+                                                            <p class="font-medium">John Doe</p>
+                                                            <p class="text-red-500">Customer</p>
+                                                        </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                </div>
+    
+                               
+                              
+                               
+                                
+                            </div>
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div> 
+                    </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- blog -->
+
+    <div
+        class="relative bg-gray-50 px-6 pt-10 pb-20 lg:px-8 lg:pt-10 lg:pb-16 bg-[url(./img/background-2.png)] bg-no-repeat bg-cover">
+        <div class="absolute inset-0">
+            <div class="h-1/3  sm:h-2/3"></div>
+        </div>
+        <div class="relative mx-auto max-w-7xl">
+
+            <div class="flex justify-center items-center flex-wrap md:flex-nowrap">
+
+
+                <div class="">
+
+                    <h2 class="text-4xl font-bold tracking-tight text-[black] py-5 sm:text-4xl"> Blogs</h2>
+
+                </div>
+
+
+            </div>
+
+            <div class="mx-auto mt-12 grid max-w-lg gap-12 lg:max-w-none lg:grid-cols-3 ">
+
+
+                <!-- 1 -->
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/blog_1.png" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <div class="flex pb-5">
+                                <!-- <div class="flex items-center gap-2 border-r-2 border-[white] pr-5">
+                                <div class="">
+                                    <img src="./img/user-icon.svg" alt="">
+                                </div>
+                                <p>By Nightingale</p>
+
+                            </div> -->
+                                <div class="flex items-center gap-2  px-5">
+                                    <div class="">
+                                        <img src="./img/date-icon.svg" alt="">
+                                    </div>
+                                    <p>November 20, 2024</p>
+
+                                </div>
+
+                            </div>
+
+                            <p class="text-2xl font-semibold text-[#2A2D7A]">Can creatine supplements help people</p>
+
+                            <div class="mt-10">
+                                <div class="text-center ">
+                                    <div
+                                        class="w-[150px] mx-auto   bg-[#3B9C43] py-3 px-5 text-white rounded-full read-more-btn">
+
+                                        <a href="#" class="font-semibold text-[white]">Read More</a>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                </div>
+                <!-- 2 -->
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/blog_2.png" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <div class="flex pb-5">
+                                <!-- <div class="flex items-center gap-2 border-r-2 border-[#2A2D7A] pr-5">
+                    <div class="">
+                        <img src="./img/user-icon.svg" alt="">
+                    </div>
+                    <p>By Nightingale</p>
+
+                </div> -->
+                                <div class="flex items-center gap-2  px-5">
+                                    <div class="">
+                                        <img src="./img/date-icon.svg" alt="">
+                                    </div>
+                                    <p>November 20, 2024</p>
+
+                                </div>
+
+                            </div>
+                            <p class="text-2xl font-semibold text-[#2A2D7A]">Can creatine supplements help people</p>
+
+                            <div class="mt-10">
+                                <div class="text-center ">
+                                    <div
+                                        class="w-[150px] mx-auto   bg-[#3B9C43] py-3 px-5 text-white rounded-full read-more-btn">
+
+                                        <a href="#" class="font-semibold text-[white]">Read More</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+                <!-- 3 -->
+
+                <div class="flex flex-col overflow-hidden rounded-xl shadow-lg" data-aos="fade-up"
+                    data-aos-duration="1500">
+                    <div class="flex-shrink-0">
+                        <img class="h-48 w-full object-cover" src="./img/blog_3.png" alt="">
+                    </div>
+                    <div class="flex flex-1 flex-col justify-between bg-white px-6 py-10">
+                        <div class="flex-1">
+                            <div class="flex pb-5">
+                                <!-- <div class="flex items-center gap-2 border-r-2 border-[#2A2D7A] pr-5">
+                    <div class="">
+                        <img src="./img/user-icon.svg" alt="">
+                    </div>
+                    <p>By Nightingale</p>
+
+                </div> -->
+                                <div class="flex items-center gap-2  px-5">
+                                    <div class="">
+                                        <img src="./img/date-icon.svg" alt="">
+                                    </div>
+                                    <p>November 20, 2024</p>
+
+                                </div>
+
+                            </div>
+                            <p class="text-2xl font-semibold text-[#2A2D7A]">Can creatine supplements help people</p>
+
+                            <div class="mt-10">
+                                <div class="text-center ">
+                                    <div
+                                        class="w-[150px] mx-auto   bg-[#3B9C43] py-3 px-5 text-white rounded-full read-more-btn">
+
+                                        <a href="#" class="font-semibold text-[white]">Read More</a>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- Make An Appointment -->
+
+    <section class="mt-10 bg-[url('./img/Appointment-bg-1.png')] bg-no-repeat bg-cover">
+        <div class="custom-container">
+            <div class="Appointment-box  w-full mx-auto p-8 ">
+                <div class="flex justify-between flex-wrap gap-10 ">
+
+                    <div class="md:w-[45%] w-full " data-aos="fade-up" data-aos-duration="1500">
+                        <div class="text-center">
+                            <h1 class=" text-[#3B9C43] text-2xl font-bold">Make An Appointment</h1>
+
+                        </div>
+                        <div class="pt-10">
+                            <form class="space-y-4">
+                                <input type="text" class="w-full p-4 bg-[#F5F7FA]" placeholder="Your Name">
+                                <input type="text" class="w-full p-4 bg-[#F5F7FA]" placeholder="Enter Id">
+                                <input type="text" class="w-full p-4 bg-[#F5F7FA]" placeholder="Phone Number">
+                                <!-- <select type="text" class="w-full p-4 bg-[#F5F7FA]" placeholder="Your Name">
+                                <option value="">Lorem ipsum </option>
+                            </select>
+
+                            <div class="flex justify-between">
+                                <input type="text " class="w-[45%] p-4 bg-[#F5F7FA]" placeholder="Date">
+                                <input type="text " class="w-[45%] p-4 bg-[#F5F7FA]" placeholder="Time">
+                            </div> -->
+                                <div class="bg-[#015C88] py-3 px-10 text-white text-center rounded-[10px]">
+
+                                    <a href="#" class="font-semibold text-[white] ">Make Appointment <i
+                                            class="fa-solid fa-arrow-right "></i> </a>
+                                </div>
+
+                            </form>
+                        </div>
+
+
+                    </div>
+                    <div class="md:w-[45%] w-full space-y-6 h-[500px]" data-aos="zoom-out" data-aos-duration="1500">
+                        <img src="./img/form_1_1.png" class=" h-full object-cover" alt="">
+
+
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- map -->
+
+    <section class="mt-10">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d243646.9050953727!2d78.24323113439739!3d17.412608642828783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99daeaebd2c7%3A0xae93b78392bafbc2!2sHyderabad%2C%20Telangana!5e0!3m2!1sen!2sin!4v1735036557416!5m2!1sen!2sin"
+            width="100%" height="400" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </section>
+    <!-- footer -->
+
+    <section class="relative bg-[#0E1136] bg-no-repeat bg-cover py-20">
+
+        <div class="absolute top-10 left-40 w-[20px] h-[30px] md:w-[100px] md:h-[100px] ">
+            <img src="./img/footer-bg-icon-1.png" class="w-full h-full" alt="">
+        </div>
+        <div class="absolute bottom-10 right-40 w-[20px] h-[30px] md:w-[100px] md:h-[100px] ">
+            <img src="./img/footer-bg-icon-2.png" class="w-full h-full" alt="">
+        </div>
+        <div class="absolute bottom-0 left-0 w-[20px] h-[30px] md:w-[130px] md:h-[150px] ">
+            <img src="./img/footer-bg-icon.png" class="w-full h-full" alt="">
+        </div>
+
+        <div class="custom-container w-[80%] md:w-[100%]">
+            <div class="flex justify-between items-center flex-wrap md:flex-nowrap">
+
+                <div class="md:-w-[45%] w-full flex justify-center" data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    data-aos-offset="1000" data-aos-duration="1000">
+                    <div class="md:w-[50%] w-full ">
+                        <div class="">
+                            <img src="./img/logo-white.png" class="w-[80%]" alt="">
+                        </div>
+
+                        <p class="pt-6 pb-2 text-[12px] text-[white]">Hyderabad - Nagarjuna Sagar Road near
+                            Santoshnagar, X’ Roads, Vinay Nagar Colony, Saidabad, Hyderabad, Telangana 500059 </p>
+                    </div>
+
+                </div>
+
+
+                <div class="md:-w-[45%] w-full flex ">
+                    <div class="flex gap-10 md:gap-40 flex-wrap md:flex-nowrap">
+
+                        <!-- 1 -->
+                        <div class="md:w-[40%]" data-aos="fade-up" data-aos-duration="1500">
+                            <h1 class="font-bold text-xl md:text-2xl text-[white]">Quick Links</h1>
+
+                            <div class="Quick-line my-3"></div>
+
+
+
+                            <ul class=" py-7 space-y-2">
+                                <li>
+                                    <a href="index.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Home </a>
+                                </li>
+
+                                <li>
+                                    <a href="about.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> About Us</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="services.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Services</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="blog.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Blog</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="contact.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Contact Us</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="md:w-[50%]" data-aos="fade-up" data-aos-duration="2500">
+                            <h1 class="font-bold text-xl md:text-2xl text-[white]">Contact</h1>
+
+                            <div class="Quick-line my-3"></div>
+
+                            <div class="py-5">
+                                <div class="flex gap-2">
+                                    <img src="./img/location.svg" alt="">
+                                    <p class="text-[white]">Hyderabad, Telangana</p>
+                                </div>
+
+                                <div class="flex gap-2 py-3">
+                                    <img src="./img/email-icon.svg" alt="">
+                                    <p class="text-[white]">info@nightingale@gmail.com</p>
+                                </div>
+
+                                <div class="flex gap-2">
+                                    <img src="./img/phone-icon.svg" alt="">
+                                    <p class="text-[white]">+91 - 9849339005</p>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#07a97c]">
+        <div class="custom-container py-3">
+            <div class="flex justify-between items-center">
+                <div class="">
+                    <p class="text-white text-[9px] md:text-[16px]">Copyright © 2024 venkat Choudary  All Rights Reserved.</p>
+                </div>
+                <div class="flex space-x-4 md:space-x-8">
+                    <a href="">
+                        <img src="./img/fb.png" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/insta.svg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="./img/youtube.png" class="w-[20px]" alt="">
+                    </a>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            loop: true,
+            slidesPerView: 1,
+            spaceBetween: 30,
+            // centeredSlides: true,
+            // autoplay: {
+            //     delay: 2500,
+            //     disableOnInteraction: false,
+            // },            
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            breakpoints: {
+                640: {
+                    slidesPerView: 1,
+                    spaceBetween: 20,
+                },
+                768: {
+                    slidesPerView: 2,
+                    spaceBetween: 40,
+                },
+                1024: {
+                    slidesPerView: 1,
+                    spaceBetween: 50,
+                },
+            },
+        });
+    </script>
+    <script>
+        AOS.init();
+      </script>
+    <script>
+        const targets = [
+            { element: document.getElementById('starsCount'), count: 10, suffix: 'K' },
+
+            { element: document.getElementById('sponsorsCount'), count: 10, suffix: 'K' },
+            { element: document.getElementById('sponsorsCount2'), count: 20, suffix: '' }
+        ];
+
+        // Find the maximum count among all targets
+        const maxCount = Math.max(...targets.map(target => target.count));
+
+        // Function to animate count-up effect
+        function animateCountUp(target, duration) {
+            let currentCount = 0;
+            const effectiveDuration = Math.max(duration, 2000); // At least 2 seconds
+            const increment = Math.ceil(target.count / (duration / 50));
+
+            const interval = setInterval(() => {
+                currentCount += increment;
+                if (currentCount >= target.count) {
+                    clearInterval(interval);
+                    currentCount = target.count;
+                    target.element.textContent = currentCount + target.suffix;
+                } else {
+                    target.element.textContent = currentCount;
+                }
+            }, 50);
+        }
+
+        // Animate count-up for each target with adjusted duration
+        targets.forEach(target => {
+            const adjustedDuration = (target.count / maxCount) * 2000;
+            animateCountUp(target, adjustedDuration); // Adjust duration based on max count
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                type: 'loop',            // Enables looping
+                perPage: 1,
+                gap: 8,             // Number of slides visible
+                autoplay: true,          // Auto slide
+                interval: 3000,          // Delay between slides (ms)
+                arrows: true,            // Show navigation arrows
+                pagination: true,        // Show pagination dots
+            }).mount();
+        });
+
+
+        function openNav() {
+            document.getElementsByClassName("barside")[0].classList.toggle("barside1");
+        }
+    </script>
+
+
+
+</body>
+
+</html>
