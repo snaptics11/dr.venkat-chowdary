@@ -2071,3 +2071,16 @@ filter: blur(1px);
 .accordionParent span.text-gray-700.font-medium {
   text-transform: uppercase;
 }
+@media screen and (min-width:910px) and (max-width:1199px){
+  .nav2 ul> li >a {
+    padding-inline: 12px;
+  }
+  .nav2 > ul{
+    gap: 15px !important;
+    justify-content: space-between;
+  }
+  .nav2 >ul> li {
+    border-radius: 2px;
+    font-size: 15px;
+}
+}
