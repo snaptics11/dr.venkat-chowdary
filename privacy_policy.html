@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venkat Choudary</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/css/splide.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"> -->
+</head>
+
+<body>
+    <!-- top header -->
+    <div class="top-header bg-[#0E1136] py-2 hidden md:block">
+        <div class="custom-container">
+            <div class="flex justify-between items-center">
+
+
+
+
+
+                <div class="flex justify-between px-4  items-center gap-2 text-white text-[14px] space-x-6">
+                    <p class="text-white space-x-2"> <i class="fa-solid fa-clock"></i><a href="">Monday - Saturday 10 AM
+                            to 5 PM</a></p>
+                    <!-- <p class="text-white  space-x-2"> <i class="fa-solid fa-envelope"></i> Email: <a
+                            href="mailto:info@nightingale@gmail.com">info@nightingale@gmail.com</a></p> -->
+                    <p class="text-white  space-x-2"><i class="fa-solid fa-location-dot"></i> <a href="">Yashodha
+                            Hospital, Secunderabad</a></p>
+                </div>
+
+                <div class="flex justify-between px-4 space-x-6 items-center gap-2">
+                    <p class="text-white">Follow Us </p>
+                     <div class="space-x-3">
+                        <a href="https://www.facebook.com/people/Dr-G-P-Venkat-Choudary/61567589978599/" target="_blank"><i class="fa-brands text-white fa-facebook-f "></i></a>
+                        <a href="https://www.instagram.com/venkatchoudary_radiologist/" target="_blank"><i class="fa-brands text-white fa-instagram"></i></a>
+                        <a href="https://wa.me/+917799911888"><i class="fa-brands text-white fa-whatsapp"></i></a>
+                    </div>
+
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <!-- header -->
+    <div class="barside">
+
+        <div class=" w-[150px]    flex justify-center ml-5 mb-5 ">
+            <img src="./img/logo.png" class="w-full h-full object-cover" alt="">
+        </div>
+        <ul class="border-b-2 border-[#015C88] px-5 py-2">
+            <li><a href="index.html" class="">
+                    <i class="fa-solid fa-house text-2xl text-[#015C88] mr-2"></i>
+                    Home</a></li>
+            <li><a href="about.html">
+                    <i class="fa-solid fa-user text-2xl text-[#015C88] mr-2"></i>
+                    About Us</a></li>
+            <li class="dropdown"><a href="services.html">
+                    <i class="fa-solid fa-stethoscope text-2xl text-[#015C88] mr-2"></i>
+                    Services</a>
+
+            </li>
+            <li class="dropdown"><a href="blog.html">
+                    <i class="fa-solid fa-newspaper text-2xl text-[#015C88] mr-2"></i>
+                    Blogs</a>
+
+            </li>
+            <li class="dropdown"><a href="contact.html">
+                    <i class="fa-solid fa-phone text-2xl text-[#015C88] mr-2"></i>
+                    Contact Us</a>
+
+            </li>
+            <div class="nav-button cloud-button ">
+
+                <a href="tel:+91 - +917799911888">+91 - +917799911888 &nbsp &nbsp<i class="fa-solid fa-phone"></i></a>
+
+            </div>
+            <li>
+
+            </li>
+        </ul>
+
+        <!-- <div class="space-y-6 pt-2">
+        <div class="flex justify-start px-4  items-center gap-4">
+            <div class=" w-[20px] h-[20px]   flex justify-center items-center">
+                <img src="./img/top-icon1.png" class="w-full brightness-50" alt="">
+            </div>
+            <div class="w-[70%] text-left">
+                <h5 class="font-[Poppins] text-[#015C88]  font-semibold text-sm">Contatc Us</h5>
+                <p class="font-[Poppins] text-[#015C88] text-sm">+91 9989030085</p>
+            </div>
+        </div>
+        <div class="flex justify-start px-4  items-center gap-4">
+            <div class=" w-[20px] h-[20px]   flex justify-center items-center">
+                <img src="./img/top-icon2.png" class="w-full brightness-50" alt="">
+            </div>
+            <div class="w-[70%] text-left">
+                <h5 class="font-[Poppins] text-[#015C88]  font-semibold text-sm">Email</h5>
+                <p class="font-[Poppins] text-[#015C88] text-sm">info@nightingale
+                    @gmail.com</p>
+            </div>
+        </div>
+    </div> -->
+
+
+
+
+
+
+
+    </div>
+    <header class="py-6  w-full z-50 main-banner">
+        <nav class="custom-container ">
+            <div class="logo">
+
+                <a href="index.html">
+                    <img src="./img/logo.png" alt="">
+                </a>
+
+            </div>
+            <div class="bar" onclick="openNav()">
+                <i class="fa-solid fa-bars-staggered"></i>
+            </div>
+
+
+            <div class="nav  ">
+
+                <div class="nav2">
+
+                    <ul class="border border-gray-100 bg-[#1D3CE2] shadow backdrop-blur-lg  md:rounded-full ">
+                        <li><a href="index.html ">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li class=""><a href="services.html">Services</a>
+
+                        </li>
+                        <li class=""><a href="blog.html" class="text-white ">Blogs</a>
+
+                        </li>
+                        <li class=""><a href="contact.html">Contact Us</a>
+
+                        </li>
+                        <!-- <li><a href="gallery.html">Gallery</a></li> -->
+
+
+
+                    </ul>
+                </div>
+
+
+            </div>
+
+            <div class="nav-button">
+
+                <a href="tel:+91 - +917799911888" class="text-nowrap">+91 - +917799911888</a>
+
+            </div>
+        </nav>
+    </header>
+
+    <!-- blog -->
+
+<!-- Hero Section -->
+<section class="relative bg-gradient-to-r from-blue-600 to-indigo-700 text-white py-20 px-6 sm:px-16">
+    <div class="absolute inset-0 bg-black opacity-50"></div>
+    <div class="relative z-10 max-w-7xl mx-auto text-center">
+        <h1 class="text-3xl sm:text-5xl font-semibold pb-2 tracking-tight">Privacy Policy</h1>
+        <p class="mt-4 text-lg sm:text-xl">Your privacy is important to us. Please read our policy carefully.</p>
+    </div>
+</section>
+
+<!-- Content Section -->
+<main class="py-16 bg-white">
+    <div class="max-w-7xl mx-auto px-6 sm:px-16">
+        <section>
+            <div class="prose lg:prose-xl">
+                <p class="text-gray-600 text-lg mb-6">Last updated: January 07, 2025</p>
+                <p class="text-gray-700 text-lg mb-8">This Privacy Policy explains how we collect, use, disclose, and safeguard your information when you visit our website.</p>
+
+                <h3 class="font-semibold text-xl text-gray-800">Information We Collect</h3>
+                <p>We may collect personal data that you provide directly to us, such as your name, email address, and phone number. Additionally, we may collect data automatically through cookies and similar technologies.</p>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">How We Use Your Information</h3>
+                <ul class="list-inside list-disc text-gray-700">
+                    <li>To provide and maintain our Service</li>
+                    <li>To notify you about changes to our Service</li>
+                    <li>To gather analysis or valuable information to improve our Service</li>
+                    <li>To monitor the usage of our Service</li>
+                    <li>To detect, prevent, and address technical issues</li>
+                </ul>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">Sharing Your Information</h3>
+                <p>We may share your information with third-party service providers to facilitate our services or perform Service-related tasks. We do not sell or rent your personal information to third parties.</p>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">Security of Your Information</h3>
+                <p>We take reasonable measures to protect your personal information from loss, theft, misuse, and unauthorized access, alteration, or destruction.</p>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">Your Data Protection Rights</h3>
+                <p>Depending on your location, you may have the right to access, correct, update, or request deletion of your personal information. To exercise these rights, please contact us.</p>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">Children's Privacy</h3>
+                <p>Our Service does not address anyone under the age of 18. We do not knowingly collect personal information from children under 18.</p>
+
+                <hr class="my-6 border-gray-300">
+
+                <h3 class="font-semibold text-xl text-gray-800">Changes to This Privacy Policy</h3>
+                <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="mt-16 text-center">
+            <h3 class="text-lg font-semibold text-gray-800">Have questions? <a href="contact.html" class="text-blue-600   hover:underline">Contact us</a></h3>
+        </section>
+    </div>
+</main>
+
+    <!-- footer -->
+
+    <section class="relative bg-[#0E1136] bg-no-repeat bg-cover py-20">
+
+        <div class="absolute top-10 left-40 w-[20px] h-[30px] md:w-[100px] md:h-[100px] ">
+            <img src="./img/footer-bg-icon-1.png" class="w-full h-full" alt="">
+        </div>
+        <div class="absolute bottom-10 right-40 w-[20px] h-[30px] md:w-[100px] md:h-[100px] ">
+            <img src="./img/footer-bg-icon-2.png" class="w-full h-full" alt="">
+        </div>
+        <div class="absolute bottom-0 left-0 w-[20px] h-[30px] md:w-[130px] md:h-[150px] ">
+            <img src="./img/footer-bg-icon.png" class="w-full h-full" alt="">
+        </div>
+
+        <div class="custom-container w-[90%] md:w-[100%]">
+            <div class="flex justify-between items-center flex-wrap md:flex-nowrap w-full">
+
+                <div class="md:-w-[45%] w-full flex justify-center" data-aos="fade-up" data-aos-anchor="#example-anchor"
+                    data-aos-offset="1000" data-aos-duration="1000">
+                    <div class="md:w-[50%] w-full ">
+                        <div class="">
+                            <img src="./img/logo-white.png" class="w-[80%]" alt="">
+                        </div>
+                        <p class="text-white pt-2">MBBS, MD Radiology , <br>
+                            DrNB Interventional Radiology</p>
+                        <p class="text-white pt-3">Take charge of your health with our advanced interventional radiology
+                            services. Your recovery is our priority.</p>
+                    </div>
+
+                </div>
+
+
+                <div class=" w-full flex ">
+                    <div class="flex gap-10 md:gap-40 flex-wrap md:flex-nowrap w-full">
+
+                        <!-- 1 -->
+                        <div class="md:w-[40%]" data-aos="fade-up" data-aos-duration="1500">
+                            <h1 class="font-bold text-xl md:text-2xl text-[white]">Quick Links</h1>
+
+                            <div class="Quick-line my-3"></div>
+
+
+
+                            <ul class=" py-7 space-y-2">
+                                <li>
+                                    <a href="index.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Home </a>
+                                </li>
+
+                                <li>
+                                    <a href="about.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> About Us</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="services.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Services</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="blog.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Blog</a>
+                                </li>
+
+
+                                <li>
+                                    <a href="contact.html" class="text-[white] ">
+                                        <img src="./img/Symbol.png" alt="" class="inline-block"> Contact Us</a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+                        <!-- 2 -->
+                        <div class="md:w-[50%]" data-aos="fade-up" data-aos-duration="2500">
+                            <h1 class="font-bold text-xl md:text-2xl text-[white]">Contact</h1>
+
+                            <div class="Quick-line my-3"></div>
+
+                            <div class="py-5">
+                                <h5 class="text-[white]">Timings :</h5>
+                                <p class="pt-1 pb-2  text-[white]">Monday - Saturday 10 AM to 5 PM </p>
+                                <h5 class="text-[white]">Address :</h5>
+                                <p class="text-[white]">Yashodha Hospital, Secunderabad</p>
+
+
+
+                                <div class="flex gap-2 pt-2">
+                                    <!-- <img src="./img/phone-icon.svg" alt=""> -->
+                                    <h5 class="text-[white]">Call : </h5>
+                                    <p class="text-[white]"><a href="tel: +917799911888"> +917799911888</a></p>
+                                </div>
+
+
+                            </div>
+
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="bg-[#07a97c] text-white">
+        <div class="custom-container py-3">
+            <div class="flex justify-between items-center">
+                <div class="">
+                    <p class="text-white text-[9px] md:text-[16px]">Copyright © 2024 Venkat Choudary All Rights
+                        Reserved.</p>
+                </div>
+                <div class="flex space-x-4 md:space-x-8">
+                    <a class="text-white text-[9px] md:text-[16px]" href="terms_and_conditions.html">
+                        <p>Terms &amp Conditions</p>
+                    </a>
+                    <a class="text-white text-[9px] md:text-[16px]" href="privacy_policy.html">
+                        <p>Privacy Policy</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!-- Initialize Swiper -->
+
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const targets = [
+            { element: document.getElementById('starsCount'), count: 10, suffix: 'K' },
+
+            { element: document.getElementById('sponsorsCount'), count: 10, suffix: 'K' },
+            { element: document.getElementById('sponsorsCount2'), count: 20, suffix: '' }
+        ];
+
+        // Find the maximum count among all targets
+        const maxCount = Math.max(...targets.map(target => target.count));
+
+        // Function to animate count-up effect
+        function animateCountUp(target, duration) {
+            let currentCount = 0;
+            const effectiveDuration = Math.max(duration, 2000); // At least 2 seconds
+            const increment = Math.ceil(target.count / (duration / 50));
+
+            const interval = setInterval(() => {
+                currentCount += increment;
+                if (currentCount >= target.count) {
+                    clearInterval(interval);
+                    currentCount = target.count;
+                    target.element.textContent = currentCount + target.suffix;
+                } else {
+                    target.element.textContent = currentCount;
+                }
+            }, 50);
+        }
+
+        // Animate count-up for each target with adjusted duration
+        targets.forEach(target => {
+            const adjustedDuration = (target.count / maxCount) * 2000;
+            animateCountUp(target, adjustedDuration); // Adjust duration based on max count
+        });
+
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@latest/dist/js/splide.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            new Splide('#image-carousel', {
+                type: 'loop',            // Enables looping
+                perPage: 1,
+                gap: 8,             // Number of slides visible
+                autoplay: true,          // Auto slide
+                interval: 3000,          // Delay between slides (ms)
+                arrows: true,            // Show navigation arrows
+                pagination: true,        // Show pagination dots
+            }).mount();
+        });
+
+
+        function openNav() {
+            document.getElementsByClassName("barside")[0].classList.toggle("barside1");
+        }
+    </script>
+
+
+
+</body>
+
+</html>

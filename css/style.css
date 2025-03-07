@@ -176,7 +176,7 @@ box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, 0.50);
 }
 .nav-button a:hover{
   background-color: #006083;
-  color: ;
+  /* color: ; */
   border:1px solid #006083;
 }
 .cloud-button button{
@@ -328,7 +328,7 @@ box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, 0.50);
 }
 
 .join:hover {
-    background: ;
+    /* background: ; */
     color: white;
 }
 
@@ -427,6 +427,8 @@ box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, 0.50);
       margin: 0px auto;
       text-align: right;
       width: 100%;
+      position: relative;
+      left: 20px;
   }
     .bar i {
         font-size: 38px;
@@ -447,7 +449,7 @@ box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, 0.50);
 
 .barside {
     display: block;
-    width: 60%;
+    width:275px;
     position: fixed;
     background-color: white;
     border-right: 1px solid #b5b5b5;
@@ -2010,13 +2012,13 @@ a:not([href]):not([class]){
 
 header{
   position: sticky;
-  top: 50px;
+  top: 0px;
   left: 0px;
   /* background: white; */
   z-index: 999999;
 }
 .elementor-element-b115492 .elementor-widget-container{
-  margin-top: 36px;
+  margin-top: 0px;
 }
 
 .Quick-line {
@@ -2045,4 +2047,27 @@ filter: blur(1px);
 .swiper-button-prev{
   top: 50%;
   left: 0px;
+}
+
+/* newly added css */
+.accordionParent ul {
+  list-style-position: inside;
+}
+.accordionParent li {
+  color: #000;
+  padding-block: 5px;
+  text-indent: -20px; 
+  padding-left: 20px; 
+}
+
+.accordionParent li::before {
+  content: "→"; 
+  margin-right: 10px;
+  color: #000;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.accordionParent span.text-gray-700.font-medium {
+  text-transform: uppercase;
 }
