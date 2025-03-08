@@ -419,17 +419,12 @@ box-shadow: 0px 2px 10px 0px rgba(184, 191, 208, 0.50);
     }
 
     .logo img {
-        width: 20%;
+        width: 100%;
+        height: 100%;
+        object-fit: contain;
     }
 
-    .bar {
-      display: block;
-      margin: 0px auto;
-      text-align: right;
-      width: 100%;
-      position: relative;
-      left: 20px;
-  }
+
     .bar i {
         font-size: 38px;
         display: inline-block;
@@ -491,6 +486,14 @@ padding: 0px;
 
 }
 @media(max-width:500px) {
+  .bar {
+    display: block;
+    margin: 0px auto;
+    text-align: right;
+    width: 100%;
+    position: relative;
+    left: 20px;
+}
     .box1 img {
         height: 310px;
         object-fit: cover;
@@ -516,6 +519,23 @@ padding: 0px;
       margin: 20px 10px;
       display: block !important;
     }
+}
+@media (min-width:501px) and (max-width:911px){
+  .bar {
+    display: block;
+    margin: 0px auto;
+    text-align: right;
+    width: 100%;
+    position: relative;
+    left: 20px;
+}
+  .nav-button{
+    display: none;
+  }
+  .barside1 {
+    left: 0px;
+    transition: 0.5s;
+}
 }
 .n-about{
     /* padding: 100px 0px 100px; */
@@ -1555,6 +1575,10 @@ z-index: 999999;
   .elementor-column.elementor-col-50, .elementor-column[data-col="50"] {
       width: 50%;
   }
+  .md\:h-\[340px\] {
+    height: 340px;
+    object-fit: cover;
+}
 }
 .elementor-column {
   min-height: 0px;
