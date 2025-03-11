@@ -149,7 +149,6 @@ nav {
 .main-banner{
   /* background: rgb(227,212,234);
 background: radial-gradient(circle, rgba(227,212,234,1) 0%, rgba(254,254,254,1) 37%, rgba(227,212,234,1) 99%); */
-background-image: url('/img/servicebg.avif');
 background-repeat: no-repeat;
 background-position: center;
 background-size: cover;
